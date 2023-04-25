@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    @apply font-sans
+}
+
+article{
+    @apply leading-8
+}
+
+h1{
+    @apply text-4xl md:text-6xl font-bold mb-10 text-green-900 text-center
+}
+
+h2{
+    @apply text-2xl md:text-4xl font-bold my-10 text-green-700 text-center
+}
+
+p{
+    @apply mb-3
+}
+
+.link-normal{
+    @apply underline hover:text-green-600
+}
+
+img{
+    @apply w-full max-w-screen-sm mx-auto
+}
+
+.icon {
+    @apply opacity-80 hover:opacity-100
+}
+
+.header-menu{
+    @apply p-3 hover:bg-green-100 text-xl
+}
+
+.bg-primary{
+    @apply bg-blue-500
+}
+
+.bg-positive{
+    @apply bg-green-500
+}
+
+.bg-negative{
+    @apply bg-red-600
+}
+
+.bg-warning {
+    @apply bg-yellow-500
+}
+
+.router-link-exact-active{
+    text-decoration: underline;
+}
