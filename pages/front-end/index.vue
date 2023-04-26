@@ -16,11 +16,10 @@ useSeoMeta({
     ogDescription: "Browse our collection of front-end web development articles and tutorials, and stay up-to-date with the latest tips, tricks, and best practices. Whether you're a beginner or an expert, you'll find something useful on MuaraCoder.",
     ogImage: '/images/Logo_complete_MuaraCoder.png',
     twitterCard: 'MuaraCoder: Where Web Development Flows like a River',
-    keywords: 'front-end development, HTML, CSS, JavaScript, web design, responsive design, indonesia, components'
 })
 
-const locale = useLocalePath()
-const data = await queryContent(locale('/front-end')).find()
-console.log(locale('/front-end'))
+const locale = useBrowserLocale()
+console.log(locale)
+const data = await queryContent(`/${locale}/front-end`).find()
 
 </script>

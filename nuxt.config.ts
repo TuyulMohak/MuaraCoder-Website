@@ -25,8 +25,10 @@ export default defineNuxtConfig({
         file: 'id.json'
       }
     ],  // used in URL path prefix
-    defaultLocale: 'id',    // default locale of your project for Nuxt pages and routings
-    strategy: 'prefix',
+    defaultLocale: 'en',
+    vueI18n : './i18n.config.ts',
+    // default locale of your project for Nuxt pages and routings
+    strategy: 'prefix_except_default',
     detectBrowserLanguage: {
       useCookie: true,
       cookieKey: 'i18n_redirected',

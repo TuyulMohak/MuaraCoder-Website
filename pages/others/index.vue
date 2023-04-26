@@ -19,8 +19,8 @@ useSeoMeta({
     keywords: 'IT tips, IT tutorials, software development, programming, UX, experience'
 })
 
-
-const locale = useLocalePath()
-const data = await queryContent(locale('/others')).find()
+const locale = useBrowserLocale()
+console.log(locale)
+const data = await queryContent(`/${locale}/others`).find()
 
 </script>

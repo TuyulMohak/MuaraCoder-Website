@@ -19,8 +19,8 @@ useSeoMeta({
     keywords: 'back-end development, express, REST API, microservice, JavaScript, Baas, indonesia'
 })
 
-const locale = useLocalePath()
-const data = await queryContent(locale('/back-end')).find()
-console.log(locale('/back-end'))
+const locale = useBrowserLocale()
+console.log(locale)
+const data = await queryContent(`/${locale}/back-end`).find()
 
 </script>
