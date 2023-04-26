@@ -16,7 +16,6 @@ useSeoMeta({
     ogDescription: "Check out our diverse collection of IT articles and tutorials, and learn new tips, tricks, and best practices across various technologies and domains. From software development to networking, MuaraCoder has something for everyone.",
     ogImage: '/images/Logo_complete_MuaraCoder.png',
     twitterCard: 'MuaraCoder: Where Web Development Flows like a River',
-    keywords: 'IT tips, IT tutorials, software development, programming, UX, experience'
 })
 
 const locale = useBrowserLocale()

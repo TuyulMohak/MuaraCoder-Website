@@ -57,7 +57,6 @@ useSeoMeta({
     description: "MuaraCoder is committed to protecting your personal information. Read our privacy policy to learn how we collect, use, and protect your data.",
     ogDescription: "MuaraCoder is committed to protecting your personal information. Read our privacy policy to learn how we collect, use, and protect your data.",
     ogImage: '/images/Logo_complete_MuaraCoder.png',
-    keywords: 'privacy policy, data protection, personal information, online privacy, GDPR, CCPA, data privacy laws' ,
     twitterCard: 'MuaraCoder: Where Web Development Flows like a River',
 })
 

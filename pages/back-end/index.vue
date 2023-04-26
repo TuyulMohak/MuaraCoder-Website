@@ -16,7 +16,6 @@ useSeoMeta({
     ogDescription: "Explore our selection of back-end web development articles and tutorials, and discover new tips, tricks, and best practices. From server-side scripting to database management, MuaraCoder has got you covered.",
     ogImage: '/images/Logo_complete_MuaraCoder.png',
     twitterCard: 'MuaraCoder: Where Web Development Flows like a River',
-    keywords: 'back-end development, express, REST API, microservice, JavaScript, Baas, indonesia'
 })
 
 const locale = useBrowserLocale()
