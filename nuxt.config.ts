@@ -16,11 +16,13 @@ export default defineNuxtConfig({
     locales: [
       {
         code: 'en',
-        name: 'English'
+        name: 'English',
+        file: 'en.json'
       },
       {
         code: 'id',
-        name: 'Indonesian'
+        name: 'Indonesian',
+        file: 'id.json'
       }
     ],  // used in URL path prefix
     defaultLocale: 'id',    // default locale of your project for Nuxt pages and routings
@@ -29,7 +31,8 @@ export default defineNuxtConfig({
       useCookie: true,
       cookieKey: 'i18n_redirected',
       redirectOn: 'root',  // recommended
-    }
+    },
+    langDir: 'lang',
   },
   postcss: {
     plugins: {
