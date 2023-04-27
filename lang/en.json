@@ -13,7 +13,11 @@
   "about-desc-00":"My name is ",
   "about-desc-0": " and I'm an industrial engineer and passionate web developer with a focus on front-end development. I've worked with various technologies such as Vue JS, Quasar Js, Nuxt Js, Express, Prisma ORM, Supabase, Wordpress, and many others.",
   "about-desc-1": "I created this website to share my experiences and knowledge with everyone who is interested in web development, with a special focus on Indonesians. As a native Indonesian myself, I understand the unique challenges and opportunities facing people in Indonesia who want to pursue a career in IT. Through this blog, I aim to create valuable and up-to-date information related to web development and IT that is accessible to everyone.",
-  "about-desc-2": "I'm always open to feedback and suggestions for future topics, so please don't hesitate to reach out if you have any ideas or questions. Thank you for visiting MuaraCoder, and I hope you find the content here useful"
+  "about-desc-2": "I'm always open to feedback and suggestions for future topics, so please don't hesitate to reach out if you have any ideas or questions. Thank you for visiting MuaraCoder, and I hope you find the content here useful",
+
+  "backend-title": "Back-end Development Tutorials, Tips, and Tricks",
+  "frontend-title":"front-end Web Development Tips and Tricks",
+  "others-title":"Information Techonology Tips, Tricks and Tutorials"
 }
 
 

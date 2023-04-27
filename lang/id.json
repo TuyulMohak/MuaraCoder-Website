@@ -9,6 +9,10 @@
   "about-desc-00":"Saya ",
   "about-desc-0": " dan saya merupakan web developer dan industrial engineer Lulusan Universitas Andalas. Saya selalu tertarik untuk memahami tentang teknologi, terutama web development seperti: Vue JS, Quasar Js, Nuxt Js, Express, Prisma ORM, Supabase, Wordpress, dan masih banyak lagi.",
   "about-desc-1": "MuaraCoder ini dibuat untuk berbagi informasi dan pengalaman kepada semua orang yang tertarik dengan teknologi dan web development, terutama dari Indonesia. Melalui website ini. Saya memiliki target untuk selalu memberikan informasi yang bermanfaat tentang teknologi, terutama Web Development yang sederhana, mudah dicerna, dan mudah dipahami oleh semua orang.",
-  "about-desc-2": "Saya selalu terbuka untuk saran dan komentar, jadi jangan ragu untuk reach out atau request konten. Terima kasih telah mengunjungi MuaraCoder, Saya harap informasi yang ada disini dapat bermanfaat"
+  "about-desc-2": "Saya selalu terbuka untuk saran dan komentar, jadi jangan ragu untuk reach out atau request konten. Terima kasih telah mengunjungi MuaraCoder, Saya harap informasi yang ada disini dapat bermanfaat",
+
+  "backend-title": "Informasi dan tutorial terkait Back-end Development",
+  "frontend-title":"Informasi dan tutorial terkait front-end Development",
+  "others-title":"Informasi dan tutorial terkait Teknologi Informasi"
 }
 

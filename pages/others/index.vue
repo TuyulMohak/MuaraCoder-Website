@@ -1,6 +1,6 @@
 <template>
     <div class="p-5 md:mx-32">
-        <h1>Other IT Topics</h1>
+        <h1> {{ $t("others-title") }} </h1>
         <section class="grid grid-cols-1 sm:grid-cols-3 gap-7">
             <PostCard v-for="row in data" :key="row._path" :data="row" :showCategory="false"/>
         </section>
