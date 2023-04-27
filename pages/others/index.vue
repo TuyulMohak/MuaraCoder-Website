@@ -8,23 +8,43 @@
 </template>
 
 <script setup>
+const { locale } = useI18n()
 
-useSeoMeta({
-    title: 'MuaraCoder: Other IT Tips and Tricks for Tech Enthusiasts',
-    ogTitle: 'MuaraCoder: Other IT Tips and Tricks for Tech Enthusiasts',
-    description: "Check out our diverse collection of IT articles and tutorials, and learn new tips, tricks, and best practices across various technologies and domains. From software development to networking, MuaraCoder has something for everyone.",
-    ogDescription: "Check out our diverse collection of IT articles and tutorials, and learn new tips, tricks, and best practices across various technologies and domains. From software development to networking, MuaraCoder has something for everyone.",
+const metaObjectEn = {
+    title: 'MuaraCoder: Information Techonology Tips and Tricks',
+    ogTitle: 'MuaraCoder: Information Techonology Tips and Tricks',
+    description: "Explore our selection of back-end development articles and tutorials, and discover new tips, tricks, and best practices. MuaraCoder has got you covered.",
+    ogDescription: "Explore our selection of back-end development articles and tutorials, and discover new tips, tricks, and best practices. From server-side scripting to database management, MuaraCoder has got you covered.",
     ogImage: '/images/Logo_complete_MuaraCoder.png',
     twitterCard: 'MuaraCoder: Where Web Development Flows like a River',
-})
+}
+const metaObjectId = {
+    title: 'MuaraCoder: Informasi dan tutorial terkait Teknologi Informasi',
+    ogTitle: 'MuaraCoder: Informasi dan tutorial terkait Teknologi Informasi',
+    description: "Temukan beragam artikel dan tutorial terkait Teknologi Informasi terbaru hanya di MuaraCoder. Yuk, eksplorasi pengetahuanmu bersama MuaraCoder!",
+    ogDescription: "Temukan beragam artikel dan tutorial terkait Teknologi Informasi terbaru hanya di MuaraCoder. Yuk, eksplorasi pengetahuanmu bersama MuaraCoder!",
+    ogImage: '/images/Logo_complete_MuaraCoder.png',
+    twitterCard: 'MuaraCoder: Where Web Development Flows like a River',
+}
 
-const locale = useLocalePath()
-const data = await queryContent(locale(`/others`)).find()
-console.log(locale('/others'))
+let metaData = null
+let canons = null
+if(locale.value === "id"){
+    metaData = metaObjectId
+    canons = ['up-to-date informations on Information Techonology']
+}else {
+    metaData = metaObjectEn
+    canons = ['Informasi up-to-date Terkait Teknologi Informasi']
+}
+useSeoMeta(metaData)
+
+const localePath = useLocalePath()
+const data = await queryContent(localePath(`/others`)).find()
+// console.log(locale('/others'))
 
 const i18nHead = useLocaleHead({
     addSeoAttributes: {
-    canonicalQueries: ['foo']
+    canonicalQueries: canons
     }
 })
 useHead({

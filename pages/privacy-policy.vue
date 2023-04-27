@@ -82,7 +82,7 @@ useSeoMeta(metaData)
 
 const i18nHead = useLocaleHead({
     addSeoAttributes: {
-    canonicalQueries: ['contact web developer from Jambi, indonesia']
+    canonicalQueries: ['privacy policy muaracoder']
     }
 })
 useHead({
