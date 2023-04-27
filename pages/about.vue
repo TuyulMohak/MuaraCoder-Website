@@ -19,16 +19,16 @@
 
 const { locale } = useI18n()
 const metaObjectEn = {
-    title: "About: MuaraCoder",
-    ogTitle: "About: MuaraCoder",
+    title: "About: Muhammad Rivandra and MuaraCoder",
+    ogTitle: "About: Muhammad Rivandra and MuaraCoder",
     description: "Hi, I'm Muhammad Rivandra, a web developer and founder of MuaraCoder. Learn more about my journey and discover how MuaraCoder can help you improve your web development skills and stay ahead of the game.",
     ogDescription: "Hi, I'm Muhammad Rivandra, a web developer and founder of MuaraCoder. Learn more about my journey and discover how MuaraCoder can help you improve your web development skills and stay ahead of the game.",
     ogImage: "/images/Logo_complete_MuaraCoder.png",
     twitterCard: 'MuaraCoder: Where Web Development Flows like a River',
 }
 const metaObjectId = {
-    title: "About: MuaraCoder",
-    ogTitle: "About: MuaraCoder",
+    title: "About: Muhammad Rivandra dan MuaraCoder",
+    ogTitle: "About: Muhammad Rivandra dan MuaraCoder",
     description: "Halo, Saya Muhammad Rivandra, web developer dan founder MuaraCoder. Pelajari lebih lanjut tentang  MuaraCoder dan mengetahui orang dibalik MuaraCoder",
     ogDescription: "Halo, Saya Muhammad Rivandra, web developer dan founder MuaraCoder. Pelajari lebih lanjut tentang  MuaraCoder dan mengetahui orang dibalik MuaraCoder",
     ogImage: "/images/Logo_complete_MuaraCoder.png",
@@ -54,7 +54,3 @@ useHead({
 })
 
 </script>
-
-<style lang="scss" scoped>
-
-</style>

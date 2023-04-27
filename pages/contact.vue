@@ -17,6 +17,8 @@
 
 <script setup>
 
+const { locale } = useI18n()
+
 const metaObjectEn = {
     title: "Contact: Get in Touch with Muhammad Rivandra and MuaraCoder",
     ogTitle: 'Contact: Get in Touch with Muhammad Rivandra and MuaraCoder',
@@ -26,8 +28,8 @@ const metaObjectEn = {
     twitterCard: 'MuaraCoder: Where Web Development Flows like a River'
 }
 const metaObjectId = {
-    title: "Hubungi Muhammad Rivandra dan MuaraCoder",
-    ogTitle: 'Hubungi Muhammad Rivandra dan MuaraCoder',
+    title: "Contact: Hubungi Muhammad Rivandra dan MuaraCoder",
+    ogTitle: 'Contact: Hubungi Muhammad Rivandra dan MuaraCoder',
     description: "Memiliki pertanyaan atau saran? atau ingin bekerja sama? Jangan ragu untuk menghubungi saya melalui sosial media yang ada di halaman ini.",
     ogDescription: "Memiliki pertanyaan atau saran? atau ingin bekerja sama? Jangan ragu untuk menghubungi saya melalui sosial media yang ada di halaman ini.",
     ogImage: '/images/Logo_complete_MuaraCoder.png',

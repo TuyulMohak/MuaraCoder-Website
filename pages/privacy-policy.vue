@@ -51,18 +51,38 @@
 
 <script setup>
 
-useSeoMeta({
-    title: "MuaraCoder Privacy Policy | Protecting Your Personal Information",
+const { locale } = useI18n()
+
+const metaObjectEn = {
+    title: "MuaraCoder: Privacy Policy | Protecting Personal Information",
     ogTitle: 'MuaraCoder Privacy Policy | Protecting Your Personal Information',
+    ogTitle: 'MuaraCoder: Privacy Policy | Protecting Personal Information',
     description: "MuaraCoder is committed to protecting your personal information. Read our privacy policy to learn how we collect, use, and protect your data.",
     ogDescription: "MuaraCoder is committed to protecting your personal information. Read our privacy policy to learn how we collect, use, and protect your data.",
     ogImage: '/images/Logo_complete_MuaraCoder.png',
-    twitterCard: 'MuaraCoder: Where Web Development Flows like a River',
-})
+    twitterCard: 'MuaraCoder: Where Web Development Flows like a River'
+}
+const metaObjectId = {
+    title: "MuaraCoder: Privacy Policy | Melindungi privasi Anda",
+    ogTitle: 'MuaraCoder: Privacy Policy | Melindungi privasi Anda',
+    description: "MuaraCoder berkomitmen untuk melindungi informasi pribadi Anda. Baca kebijakan privasi kami untuk mempelajari cara kami mengumpulkan, menggunakan, dan melindungi data Anda.",
+    ogDescription: "MuaraCoder berkomitmen untuk melindungi informasi pribadi Anda. Baca kebijakan privasi kami untuk mempelajari cara kami mengumpulkan, menggunakan, dan melindungi data Anda.",
+    ogImage: '/images/Logo_complete_MuaraCoder.png',
+    twitterCard: 'MuaraCoder: Where Web Development Flows like a River'
+}
+
+let metaData = null
+if(locale.value === "id"){
+    metaData = metaObjectId
+}else {
+    metaData = metaObjectEn
+}
+useSeoMeta(metaData)
+
 
 const i18nHead = useLocaleHead({
     addSeoAttributes: {
-    canonicalQueries: ['foo']
+    canonicalQueries: ['contact web developer from Jambi, indonesia']
     }
 })
 useHead({
