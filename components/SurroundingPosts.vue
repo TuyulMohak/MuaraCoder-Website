@@ -17,6 +17,7 @@ const props = defineProps({
     currentRoute: String
 })
 
-const data = await queryContent().only(['_path', 'title']).sort({ date: 1 }).limit(10).findSurround(props.currentRoute)
+const queryData = await queryContent().only(['_path', 'title']).sort({ date: 1 }).limit(10).findSurround(props.currentRoute)
+const data = queryData.filter(row=> row!==null)
 console.log("this is from surroundingPosts", data)
 </script>
