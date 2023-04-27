@@ -16,18 +16,36 @@
 </template>
 
 <script setup>
-useSeoMeta({
-    title: "About Muhammad Rivandra: Web Developer and Founder of MuaraCoder",
-    ogTitle: 'About Muhammad Rivandra: Web Developer and Founder of MuaraCoder',
+
+const { locale } = useI18n()
+const metaObjectEn = {
+    title: "About: MuaraCoder",
+    ogTitle: "About: MuaraCoder",
     description: "Hi, I'm Muhammad Rivandra, a web developer and founder of MuaraCoder. Learn more about my journey and discover how MuaraCoder can help you improve your web development skills and stay ahead of the game.",
     ogDescription: "Hi, I'm Muhammad Rivandra, a web developer and founder of MuaraCoder. Learn more about my journey and discover how MuaraCoder can help you improve your web development skills and stay ahead of the game.",
-    ogImage: '/images/Logo_complete_MuaraCoder.png',
+    ogImage: "/images/Logo_complete_MuaraCoder.png",
     twitterCard: 'MuaraCoder: Where Web Development Flows like a River',
-})
+}
+const metaObjectId = {
+    title: "About: MuaraCoder",
+    ogTitle: "About: MuaraCoder",
+    description: "Halo, Saya Muhammad Rivandra, web developer dan founder MuaraCoder. Pelajari lebih lanjut tentang  MuaraCoder dan mengetahui orang dibalik MuaraCoder",
+    ogDescription: "Halo, Saya Muhammad Rivandra, web developer dan founder MuaraCoder. Pelajari lebih lanjut tentang  MuaraCoder dan mengetahui orang dibalik MuaraCoder",
+    ogImage: "/images/Logo_complete_MuaraCoder.png",
+    twitterCard: 'MuaraCoder: Where Web Development Flows like a River',
+}
+
+let metaData = null
+if(locale.value === "id"){
+    metaData = metaObjectId
+}else {
+    metaData = metaObjectEn
+}
+useSeoMeta(metaData)
 
 const i18nHead = useLocaleHead({
     addSeoAttributes: {
-    canonicalQueries: ['foo']
+    canonicalQueries: ['platform to share up-to-date information from IT', 'platform to share up-to-date information related to web development']
     }
 })
 useHead({

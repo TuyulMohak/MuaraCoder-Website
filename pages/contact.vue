@@ -16,18 +16,36 @@
 </template>
 
 <script setup>
-useSeoMeta({
+
+const metaObjectEn = {
     title: "Contact: Get in Touch with Muhammad Rivandra and MuaraCoder",
     ogTitle: 'Contact: Get in Touch with Muhammad Rivandra and MuaraCoder',
     description: "Have a question or suggestion? Want to collaborate? Don't hesitate to contact me using the form below. I'm always happy to chat with fellow web developers and enthusiasts.",
     ogDescription: "Have a question or suggestion? Want to collaborate? Don't hesitate to contact me using the form below. I'm always happy to chat with fellow web developers and enthusiasts.",
     ogImage: '/images/Logo_complete_MuaraCoder.png',
-    twitterCard: 'MuaraCoder: Where Web Development Flows like a River',
-})
+    twitterCard: 'MuaraCoder: Where Web Development Flows like a River'
+}
+const metaObjectId = {
+    title: "Hubungi Muhammad Rivandra dan MuaraCoder",
+    ogTitle: 'Hubungi Muhammad Rivandra dan MuaraCoder',
+    description: "Memiliki pertanyaan atau saran? atau ingin bekerja sama? Jangan ragu untuk menghubungi saya melalui sosial media yang ada di halaman ini.",
+    ogDescription: "Memiliki pertanyaan atau saran? atau ingin bekerja sama? Jangan ragu untuk menghubungi saya melalui sosial media yang ada di halaman ini.",
+    ogImage: '/images/Logo_complete_MuaraCoder.png',
+    twitterCard: 'MuaraCoder: Where Web Development Flows like a River'
+}
+
+let metaData = null
+if(locale.value === "id"){
+    metaData = metaObjectId
+}else {
+    metaData = metaObjectEn
+}
+useSeoMeta(metaData)
+
 
 const i18nHead = useLocaleHead({
     addSeoAttributes: {
-    canonicalQueries: ['foo']
+    canonicalQueries: ['contact web developer from Jambi, indonesia']
     }
 })
 useHead({
