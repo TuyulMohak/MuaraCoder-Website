@@ -18,8 +18,18 @@ useSeoMeta({
     twitterCard: 'MuaraCoder: Where Web Development Flows like a River',
 })
 
-const locale = useBrowserLocale()
-console.log(locale)
-const data = await queryContent(`/${locale}/others`).find()
+const locale = useLocalePath()
+const data = await queryContent(locale(`/others`)).find()
+console.log(locale('/others'))
+
+const i18nHead = useLocaleHead({
+    addSeoAttributes: {
+    canonicalQueries: ['foo']
+    }
+})
+useHead({
+    link: [...(i18nHead.value.link || [])],
+    meta: [...(i18nHead.value.meta || [])]
+})
 
 </script>

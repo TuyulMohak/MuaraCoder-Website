@@ -32,18 +32,23 @@
     </main>
 </template>
 
-<script >
-export default {
-  async setup () {
+<script setup>
+
     const locale = useLocalePath()
     const route = useRoute()
     const url = "https://www.muaracoder.com"+route.fullPath
     console.log(url)
     const data = await queryContent(locale('/')).only(['_path', 'title']).sort({ date: 1 }).limit(10).find()
-    return { data, url }
-  }
-}
 
+    const i18nHead = useLocaleHead({
+      addSeoAttributes: {
+        canonicalQueries: ['foo']
+      }
+    })
+    useHead({
+      link: [...(i18nHead.value.link || [])],
+      meta: [...(i18nHead.value.meta || [])]
+    })
 </script>
 
 <style scoped>

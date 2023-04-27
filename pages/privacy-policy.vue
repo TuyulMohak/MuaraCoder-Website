@@ -60,4 +60,14 @@ useSeoMeta({
     twitterCard: 'MuaraCoder: Where Web Development Flows like a River',
 })
 
+const i18nHead = useLocaleHead({
+    addSeoAttributes: {
+    canonicalQueries: ['foo']
+    }
+})
+useHead({
+    link: [...(i18nHead.value.link || [])],
+    meta: [...(i18nHead.value.meta || [])]
+})
+
 </script>
