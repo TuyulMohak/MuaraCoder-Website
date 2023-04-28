@@ -1,15 +1,19 @@
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default defineNuxtConfig({
   css:['~/app.css'],
-  modules: ['@nuxt/content', '@nuxtjs/tailwindcss', 'nuxt-icon', '@nuxtjs/i18n', 'nuxt-simple-sitemap'],
+  modules: ['@nuxt/content', '@nuxtjs/tailwindcss', 'nuxt-icon', '@nuxtjs/i18n', 'nuxt-simple-sitemap', 'nuxt-simple-robots'],
   app: {
     head: {
       charset: 'utf-8',
       viewport: 'width=device-width, initial-scale=1',
     }
   },
+  robots:{
+    siteUrl: 'https://muaracoder.com',
+    indexable:true
+  },
   sitemap :{
-    siteUrl: 'https://www.muaracoder.com'
+    siteUrl: 'https://muaracoder.com'
   },
   i18n: {
     /* module options */

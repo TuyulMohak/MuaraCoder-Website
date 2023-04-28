@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://muaracoder.com/sitemap.xml
