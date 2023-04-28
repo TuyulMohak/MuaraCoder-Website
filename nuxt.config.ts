@@ -10,6 +10,7 @@ export default defineNuxtConfig({
   },
   robots:{
     siteUrl: 'https://muaracoder.com',
+    sitemap: ['https://muaracoder.com/sitemap.xml'],
     indexable:true
   },
   sitemap :{
