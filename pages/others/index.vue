@@ -19,8 +19,8 @@ const metaObjectEn = {
     twitterCard: 'MuaraCoder: Where Web Development Flows like a River',
 }
 const metaObjectId = {
-    title: 'MuaraCoder: Informasi dan tutorial terkait Teknologi Informasi',
-    ogTitle: 'MuaraCoder: Informasi dan tutorial terkait Teknologi Informasi',
+    title: 'MuaraCoder: Informasi dan tutorial Teknologi Informasi',
+    ogTitle: 'MuaraCoder: Informasi dan tutorial Teknologi Informasi',
     description: "Temukan beragam artikel dan tutorial terkait Teknologi Informasi terbaru hanya di MuaraCoder. Yuk, eksplorasi pengetahuanmu bersama MuaraCoder!",
     ogDescription: "Temukan beragam artikel dan tutorial terkait Teknologi Informasi terbaru hanya di MuaraCoder. Yuk, eksplorasi pengetahuanmu bersama MuaraCoder!",
     ogImage: '/images/Logo_complete_MuaraCoder.png',

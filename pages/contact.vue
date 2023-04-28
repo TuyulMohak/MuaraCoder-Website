@@ -1,6 +1,6 @@
 <template>
     <main class="p-5 md:mx-64 text-center text-gray-700">
-        <h1>Contact</h1>
+        <h1>{{$t("contact-h1")}}</h1>
         <div class="grid grid-cols-1 gap-5">
             <section class="col-span-1 border rounded-lg">
                 <h2>{{ $t("address")}}</h2>

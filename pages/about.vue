@@ -4,8 +4,8 @@
             <img class="w-32" src="/images/muhammad_rivandra_potrait.png"/>
         </section>
         <section>
-            <h1>About Me</h1>
-            <h2>{{  $t("about-tagline") }}</h2>
+            <h1>{{$t("about-h1")}}</h1>
+            <p class="font-bold">{{  $t("about-tagline") }}</p>
             <p class="text-md italic mb-5">{{$t("about-desc-00")}} <a class="text-green-600 underline" href="https://muhammad-rivandra.netlify.app/#/" target="_blank">Muhammad Rivandra</a>, {{$t("about-desc-0")}}</p>
             <div class="text-sm">
                 <p>{{$t("about-desc-1")}}</p>

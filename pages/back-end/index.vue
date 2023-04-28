@@ -20,8 +20,8 @@ const metaObjectEn = {
     twitterCard: 'MuaraCoder: Where Web Development Flows like a River',
 }
 const metaObjectId = {
-    title: 'MuaraCoder: Informasi dan tutorial terkait Back-end Development',
-    ogTitle: 'MuaraCoder: Informasi dan tutorial terkait Back-end Development',
+    title: 'MuaraCoder: Informasi dan tutorial Back-end Development',
+    ogTitle: 'MuaraCoder: Informasi dan tutorial Back-end Development',
     description: "Temukan beragam artikel dan tutorial terkait pengembangan back-end terbaru hanya di MuaraCoder. Dapatkan tips, trik, dan best practices untuk pengembangan web yang pasti sangat bermanfaat untukmu. Yuk, eksplorasi pengetahuanmu bersama MuaraCoder!",
     ogDescription: "Temukan beragam artikel dan tutorial terkait pengembangan back-end terbaru hanya di MuaraCoder. Dapatkan tips, trik, dan best practices untuk pengembangan web yang pasti sangat bermanfaat untukmu. Yuk, eksplorasi pengetahuanmu bersama MuaraCoder!",
     ogImage: '/images/Logo_complete_MuaraCoder.png',

@@ -11,7 +11,7 @@ article{
 }
 
 h1{
-    @apply text-4xl md:text-6xl font-bold mb-10 text-green-900 text-center
+    @apply text-3xl md:text-5xl font-bold mb-10 text-green-900 text-center
 }
 
 h2{

@@ -1,6 +1,7 @@
 {
   "home-title": "MuaraCoder: Where Web Development Flows like a River",
 
+  "contact-h1": "Contact: Get in Touch with Muhammad Rivandra and MuaraCoder",
   "location": "Location",
   "address": "Address",
   "cta-contact": "Connect with Me Through Social Media",
@@ -9,6 +10,7 @@
   "about-meta-description": "Hi, I'm Muhammad Rivandra, a web developer and founder of MuaraCoder. Learn more about my journey and discover how MuaraCoder can help you improve your web development skills and stay ahead of the game." ,
   "about-meta-image": "/images/Logo_complete_MuaraCoder.png",
 
+  "about-h1": "About: Muhammad Rivandra and MuaraCoder",
   "about-tagline":"Hello and welcome to MuaraCoder!",
   "about-desc-00":"My name is ",
   "about-desc-0": " and I'm an industrial engineer and passionate web developer with a focus on front-end development. I've worked with various technologies such as Vue JS, Quasar Js, Nuxt Js, Express, Prisma ORM, Supabase, Wordpress, and many others.",

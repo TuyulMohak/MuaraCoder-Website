@@ -1,10 +1,12 @@
 {
   "home-title": "Informasi Terbaru tentang IT dan Web Development",
 
+  "contact-h1": "Contact: Hubungi Muhammad Rivandra dan MuaraCoder",
   "location": "Lokasi",
   "address": "Alamat",
   "cta-contact": "Mari Terhubung Melalui Media Sosial",
 
+  "about-h1": "About: Muhammad Rivandra dan MuaraCoder",
   "about-tagline":"Selamat datang di MuaraCoder!",
   "about-desc-00":"Saya ",
   "about-desc-0": " dan saya merupakan web developer dan industrial engineer Lulusan Universitas Andalas. Saya selalu tertarik untuk memahami tentang teknologi, terutama web development seperti: Vue JS, Quasar Js, Nuxt Js, Express, Prisma ORM, Supabase, Wordpress, dan masih banyak lagi.",
