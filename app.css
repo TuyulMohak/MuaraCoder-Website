@@ -6,6 +6,11 @@ body{
     @apply font-sans
 }
 
+pre {
+    @apply bg-black p-5 rounded-md
+}
+
+
 article{
     @apply leading-8
 }

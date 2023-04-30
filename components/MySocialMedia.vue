@@ -8,7 +8,7 @@
     </div>
 </template>
 
-<script>
+<script setup>
 const socials = [
     {
         iconName: 'uil:github',
@@ -26,14 +26,4 @@ const socials = [
         btnClass: 'text-red-600 text-4xl'
     }
 ]
-export default {
-    setup () {
-        
-        return { socials }
-    }
-}
 </script>
-
-<style lang="scss" scoped>
-
-</style>

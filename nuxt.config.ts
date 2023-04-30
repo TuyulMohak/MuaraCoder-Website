@@ -1,4 +1,8 @@
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
+// import highlightjs from 'highlight.js'
+// const wrap = (code:string, lang:string) => `<pre><code class="hljs ${lang}">${code}</code></pre>`
+
+
 export default defineNuxtConfig({
   css:['~/app.css'],
   modules: ['@nuxt/content', '@nuxtjs/tailwindcss', 'nuxt-icon', '@nuxtjs/i18n', 'nuxt-simple-sitemap', 'nuxt-simple-robots'],
@@ -48,6 +52,12 @@ export default defineNuxtConfig({
       tailwindcss: {},
       autoprefixer: {},
     },
+  },
+  content: {
+    highlight: {
+      // Theme used in all color schemes.
+      theme: 'github-dark'
+    }
   }
 
 })
