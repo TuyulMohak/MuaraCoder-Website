@@ -1,7 +1,7 @@
 ---
 title: 'Simple Vue 3 Guide : Single File Component with Script Setup'
 description: In this guide, MuaraCoder will show you how to use vue single file compoent with composition API and Script Setup in simple way. 
-image: images/vue-vite-screenshot.png
+image: /images/vue-vite-screenshot.png
 author: Muhammad Rivandra
 date: 2023-04-30
 ---
