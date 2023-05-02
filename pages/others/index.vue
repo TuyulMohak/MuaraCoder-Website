@@ -13,8 +13,8 @@ const { locale } = useI18n()
 const metaObjectEn = {
     title: 'MuaraCoder: Information Techonology Tips and Tricks',
     ogTitle: 'MuaraCoder: Information Techonology Tips and Tricks',
-    description: "Explore our selection of back-end development articles and tutorials, and discover new tips, tricks, and best practices. MuaraCoder has got you covered.",
-    ogDescription: "Explore our selection of back-end development articles and tutorials, and discover new tips, tricks, and best practices. From server-side scripting to database management, MuaraCoder has got you covered.",
+    description: "Explore our selection of Information Techonology articles and tutorials, and discover new tips, tricks, and best practices. From utility tools like excel, figma, diagramming tools, or others, MuaraCoder has got you covered. MuaraCoder has got you covered.",
+    ogDescription: "Explore our selection of of Information Techonology articles and tutorials, and discover new tips, tricks, and best practices. From utility tools like excel, figma, diagramming tools, or others, MuaraCoder has got you covered.",
     ogImage: '/images/Logo_complete_MuaraCoder.png',
     twitterCard: 'MuaraCoder: Where Web Development Flows like a River',
 }
