@@ -1,10 +1,12 @@
 <template>
     <div class="p-5 md:mx-32">
+        <adsbygoogle />
         <h1>{{ $t('home-title') }}</h1>
         <!-- <pre>{{ data }}</pre> -->
         <section class="grid grid-cols-1 sm:grid-cols-3 gap-7">
             <PostCard v-for="row in data" :key="row._path" :data="row" :showCategory="true"/>
         </section>
+        <adsbygoogle />
     </div>
 </template>
 
