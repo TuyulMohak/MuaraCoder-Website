@@ -17,6 +17,14 @@ export default defineNuxtConfig({
     sitemap: ['https://muaracoder.com/sitemap.xml'],
     indexable:true
   },
+  nitro: {
+    prerender: {
+      crawlLinks: true,
+      routes: [
+        '/',
+      ]
+    }
+  },
   sitemap :{
     siteUrl: 'https://muaracoder.com'
   },

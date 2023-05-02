@@ -1,6 +1,6 @@
 ---
 title: 'Simple Vue 3 Guide: What is Vue and why I love Vue'
-description: In this guide, MuaraCoder will share about what is vue and why I love vue. 
+description: In this guide, MuaraCoder will share about what is vue and why I love vue, along with the advantages and disadvantages.
 image: images/vue-vite-screenshot.png
 author: Muhammad Rivandra
 date: 2023-04-30
@@ -14,7 +14,7 @@ date: 2023-04-30
 ::ImageWithAlt{src="/images/vue-vite-screenshot.png" alt="Vue App Screenshot"}
 ::
 
-In this post I will share my experience of using few for the last year. I will outline the advantages and disadvantages of using it. Let's get started. 
+In this post I will share my experience of using VueJs since the 2022. Let's get started. 
 
 ## What is Vue?
 
@@ -23,13 +23,14 @@ In this post I will share my experience of using few for the last year. I will o
 
 ## Why I love Vue
 
-Okay so, Vue is the first javascript framework that I learned, It doesn't necessarily require extensive Javascript knowledge, Easy Syntax for beginner to understand, and Lightweight. I've been learning it since 2021 while still learning basics of Javascript, made various things using vue, you can check it on my [Portfolio website](https://muhammad-rivandra.netlify.app/#/). I even made this website using vue with Nuxt 3. The state management using [Pinia](https://pinia.vuejs.org) is awesome and extremely easy to use and routing with [Vue Router](https://router.vuejs.org) is great. I really recommend it. 
+Okay, so Vue is the first Javascript framework that I learned. It doesn't necessarily require extensive Javascript knowledge, has easy syntax for beginners to understand, and is also lightweight. I've been learning it since 2022 while still learning the basics of Javascript. I've made various things using Vue; you can check them out on my [Portfolio website](https://muhammad-rivandra.netlify.app/#/). I even made this website using Vue with Nuxt 3. The state management using [Pinia](https://pinia.vuejs.org) is awesome and extremely easy to use, and routing with [Vue Router](https://router.vuejs.org) is great. I really recommend it. 
 
-This is the awesome things, I recently tried to learn React, It's shocked me that I can understand the basics in couple of days, I believe It took me 1 to 3 weeks to understand state management with Zustand and Routing with React Router If I start today. I believe It all because of Vue, when you understand Vue, you can just jump to other framework without too much difficulties. That's why I love Vue Js.
+
+This is the awesome thing: I recently tried to learn React. It shocks me that I can understand the basics in a couple of days. I believe it will take me 1–3 weeks to understand state management with Zustand and routing with React Router if I start today. When you understand Vue, you can just jump to other frameworks without too much difficulty. That's why I love Vue Js.
 
 ## Advantages and Disadvantages
 
-Even though the awesome things that I mentioned before, It's absolutely have advantages and disadvantages. I'll Outline it in this section.
+In this section, I'll outline the advantages and disadvantages of VueJS that I found.
 
 
 ### Advantages
@@ -45,12 +46,12 @@ Even though the awesome things that I mentioned before, It's absolutely have adv
 
 * Little Tutorial Available 
 * Smaller community
+* Fewer job posting (than something like React)
 
 
 ## Summary
 
-Okay, so that's it. That's Vue js. an awesome Front end Javascript framework. If you are a beginner with limited Javascript skill, I recommend you to use it. Also if you're an expert, try it. But I believe, It's good to know more than framework, either backend framework like Express or other frontend like React. Good luck with your web development journey, and check out the other Simple Vue 3 guide on MuaraCoder.
-
+Okay, so that's it. That's VueJS, an awesome front-end Javascript framework. If you are a beginner with limited Javascript skills, I recommend you use it. Also, if you're an expert, try it. It's really easy to get started with. But I believe it's good to know more than frameworks, either backend frameworks like Express or frontend frameworks like React. Good luck with your web development journey, and check out the other Simple Vue 3 guide on MuaraCoder.
 
 ## Simple Vue 3 Guide
 

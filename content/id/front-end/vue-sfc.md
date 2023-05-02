@@ -1,12 +1,12 @@
 ---
-title: 'Panduan Vue 3 Simple : Single File Component dengan Script Setup'
+title: 'Tutorial Vue 3 Simple : Single File Component dengan Script Setup'
 description: In this guide, MuaraCoder will show you how to use vue single file compoent with composition API and Script Setup in simple way. 
 image: /images/vue-vite-screenshot.png
 author: Muhammad Rivandra
 date: 2023-04-30
 ---
 
-# Panduan Vue 3 Simple : Single File Component dengan Script Setup
+# Tutorial Vue 3 Simple : Single File Component dengan Script Setup
 
 ::AuthorAndDate{author="Muhammad Rivandra" date="2023-05-02"}
 ::
@@ -88,11 +88,12 @@ Okay, Jadi. Itu merupakan Tutorial simple untuk membuat dan menggunakan Single F
 
 
 ## Simple Vue 3 Guide
-<!-- [Simple Vue 3 Guide: What is Vue and why I love It](/f){class="text-green-700 underline hover:font-bold"} -->
 
-[Simple Vue 3 Guide: Installation & Project Configuration](/front-end/vue-installation-and-project-configuration){class="text-green-700 underline hover:font-bold"}
+[Tutorial Vue 3 Sederhana: Apa itu Vuejs dan Review](/id/front-end/what-is-vue-and-why-i-love-it){class="text-green-700 underline hover:font-bold"}
 
-[Simple Vue 3 Guide: Single File Component, Composition API & Script Setup](/front-end/vue-sfc){class="text-green-700 underline hover:font-bold"}
+[Tutorial Vue 3 Simple : Instalasi & Project Configuration](/id/front-end/vue-installation-and-project-configuration){class="text-green-700 underline hover:font-bold"}
+
+[Tutorial Vue 3 Simple : Single File Component dengan Script Setup](/id/front-end/vue-sfc){class="text-green-700 underline hover:font-bold"}
 
 <!-- [Simple Vue 3 Guide: Intro to Vue Router](/){class="text-green-700 underline hover:font-bold"}
 

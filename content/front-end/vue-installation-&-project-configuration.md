@@ -17,7 +17,7 @@ date: 2023-04-30
 
 ## Installation
 
-In this guide I will use Vite because of it's simplicity and sheer speed. Firstly, you must already have package manager like `PNPM`, `YARN` or `NPM` and you also need `NODE` installed on your device. To start a `Vue` project using `Vite`. we need to run one of the command below on your terminal.
+In this guide I will use Vite because of it's simplicity and sheer speed. Firstly, you must already have package manager like `pnpm`, `yarn` or `npm`. I recommend using `npm`. and you also need `NODE` installed on your device. To start a `Vue` project using `Vite`. we need to run one of the command below on your terminal.
 
 
 ```bash
@@ -51,7 +51,7 @@ npm install
 npm run dev
 ```
 
-After you run the local server, it will show the URL where the app runs. Now go to the URL using your browser. in this case is `http://127.0.0.1:5175/`.
+After you run the local server, it will show the URL where the app runs. Now go to the URL using your browser. in this case our URL is `http://127.0.0.1:5175/`.
 
 ```bash
 

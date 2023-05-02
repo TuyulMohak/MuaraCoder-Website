@@ -1,12 +1,12 @@
 ---
-title: 'Panduan Vue 3 Simple : Instalasi & Project Configuration'
+title: 'Tutorial Vue 3 Simple : Instalasi & Project Configuration'
 description: Di panduan ini, MuaraCoder akan menunjukkan cara menginstall Vue 3 menggunakan Vite dengan cara yang sangat mudah dan juga disertai contoh. 
 image: /images/vue-vite-screenshot.png
 author: Muhammad Rivandra
 date: 2023-04-30
 ---
 
-# Panduan Vue 3 Simple : Instalasi & Project Configuration
+# Tutorial Vue 3 Simple : Instalasi & Project Configuration
 
 ::AuthorAndDate{author="Muhammad Rivandra" date="2023-05-01"}
 ::
@@ -18,7 +18,7 @@ date: 2023-04-30
 ## Installation
 
 Di tutorial ini kita akan menggunakan Vite karna sangat sederhana dan sangat cepat.
-Sebelum itu kamu harus sudah punya package manager seperty `NPM`, `yarn`, atau `pnpm` dan juga kamu harus punya `NODE` di device kamu. Untuk membuat project menggunakan `Vue` dan `Vite` kita harus menjalankan satu dari 3 command dibawah ini di terminal.
+Sebelum itu kamu harus sudah punya package manager seperty `NPM`, `yarn`, atau `pnpm`. Saya rekomendasiin untuk pake `npm`. Kamu juga harus punya `NODE` di device kamu. Untuk membuat project menggunakan `Vue` dan `Vite` kita harus menjalankan satu dari 3 command dibawah ini di terminal.
 
 
 ```bash
@@ -52,8 +52,7 @@ npm install
 npm run dev
 ```
 
-After you run the local server, it will show the URL where the app runs. Now go to the URL using your browser. .
-Setelah kita run local servernya. Kita akan mendapatkan URL dimana project kita sedang berjalan. Untuk tutorial kali ini URL nya adalah:  `http://127.0.0.1:5175/` nah kita perlu pergi ke URL tersebut.
+Setelah kita run local servernya. Kita akan mendapatkan URL dimana project kita sedang berjalan. Untuk tutorial kali ini URL nya adalah:  `http://127.0.0.1:5175/`. nah kita perlu pergi ke URL tersebut menggunakan Browser kalian.
 
 ```bash
 
@@ -154,11 +153,13 @@ app.mount('#app')
 Okay, Tutorial kita udah siap untuk membuat Vue 3 Project menggunakan Vite dan kita juga melihat beberapa contoh aplikasi. Good luck untuk belajar web developmentnya. Check out guides tentang Vue 3 lain di MuaraCoder.
 
 ## Simple Vue 3 Guide
-<!-- [Simple Vue 3 Guide: What is Vue and why I love Vue](/f){class="text-green-700 underline hover:font-bold"} -->
 
-[Simple Vue 3 Guide: Installation & Project Configuration](/front-end/vue-installation-and-project-configuration){class="text-green-700 underline hover:font-bold"}
+[Tutorial Vue 3 Sederhana: Apa itu Vuejs dan Review](/id/front-end/what-is-vue-and-why-i-love-it){class="text-green-700 underline hover:font-bold"}
 
-[Simple Vue 3 Guide: Single File Component, Composition API & Script Setup](/front-end/vue-sfc){class="text-green-700 underline hover:font-bold"}
+[Tutorial Vue 3 Simple : Instalasi & Project Configuration](/id/front-end/vue-installation-and-project-configuration){class="text-green-700 underline hover:font-bold"}
+
+[Tutorial Vue 3 Simple : Single File Component dengan Script Setup](/id/front-end/vue-sfc){class="text-green-700 underline hover:font-bold"}
+
 
 <!-- [Simple Vue 3 Guide: Intro to Vue Router](/){class="text-green-700 underline hover:font-bold"}
 
