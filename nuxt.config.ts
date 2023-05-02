@@ -5,7 +5,7 @@
 
 export default defineNuxtConfig({
   css:['~/app.css'],
-  modules: ['@nuxt/content', '@nuxtjs/google-adsense', '@nuxtjs/tailwindcss', 'nuxt-icon', '@nuxtjs/i18n', 'nuxt-simple-sitemap', 'nuxt-simple-robots'],
+  modules: ['@nuxt/content', 'nuxt-security','@nuxtjs/google-adsense', '@nuxtjs/tailwindcss', 'nuxt-icon', '@nuxtjs/i18n', 'nuxt-simple-sitemap', 'nuxt-simple-robots'],
   app: {
     head: {
       charset: 'utf-8',
