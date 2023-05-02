@@ -1,6 +1,6 @@
 <template>
     <main class="p-5 md:mx-32 text-center">
-        <h1>Privacy Policy for Muara Coder</h1>
+        <h1>{{ $t('privacy-title') }}</h1>
 
         <p>At Muara Coder, accessible from https://www.muaracoder.com, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by Muara Coder and how we use it.</p>
 
