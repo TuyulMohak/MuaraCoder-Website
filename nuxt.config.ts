@@ -5,7 +5,7 @@
 
 export default defineNuxtConfig({
   css:['~/app.css'],
-  modules: ['@nuxt/content', '@nuxtjs/tailwindcss', 'nuxt-icon', '@nuxtjs/i18n', 'nuxt-simple-sitemap', 'nuxt-simple-robots'],
+  modules: ['@nuxt/content', '@nuxtjs/google-adsense', '@nuxtjs/tailwindcss', 'nuxt-icon', '@nuxtjs/i18n', 'nuxt-simple-sitemap', 'nuxt-simple-robots'],
   app: {
     head: {
       charset: 'utf-8',
@@ -16,6 +16,9 @@ export default defineNuxtConfig({
     siteUrl: 'https://muaracoder.com',
     sitemap: ['https://muaracoder.com/sitemap.xml'],
     indexable:true
+  },
+  'google-adsense': {
+    id: 'ca-pub-3151993219659586'
   },
   nitro: {
     prerender: {
