@@ -1,12 +1,12 @@
 ---
-title: 'Tutorial Vue 3 Sederhana: Apa itu Vuejs beserta Kelebihan dan Kekurangan'
+title: 'Tutorial Vue 3 Simple: Apa itu Vuejs beserta Kelebihan dan Kekurangan'
 description: In this guide, MuaraCoder will share about what is vue and why I love vue, along with the advantages and disadvantages.
-image: images/vue-vite-screenshot.png
+image: /images/vue-vite-screenshot.png
 author: Muhammad Rivandra
 date: 2023-04-30
 ---
 
-# Tutorial Vue 3 Sederhana: Apa itu Vuejs beserta Kelebihan dan Kekurangan
+# Tutorial Vue 3 Simple: Apa itu Vuejs beserta Kelebihan dan Kekurangan
 
 ::AuthorAndDate{author="Muhammad Rivandra" date="2023-05-02"}
 ::
