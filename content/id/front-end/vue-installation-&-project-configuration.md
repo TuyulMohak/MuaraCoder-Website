@@ -1,7 +1,7 @@
 ---
 title: 'Tutorial Vue 3 Simple : Instalasi & Project Configuration'
 description: Di panduan ini, MuaraCoder akan menunjukkan cara menginstall Vue 3 menggunakan Vite dengan cara yang sangat mudah dan juga disertai contoh. 
-image.src: /images/vue-vite-screenshot.png
+image.src: '/images/vue-vite-screenshot.png'
 author: Muhammad Rivandra
 date: 2023-04-30
 ---

@@ -1,7 +1,7 @@
 ---
 title: 'Tutorial Vue 3 Simple : Single File Component + Script Setup'
 description: Pada Tutorial ini, MuaraCoder akan menunjukkan cara untuk membuat dan menggunakan Single file component pada Vuejs dengan menggunakan script setup secara sederhana. 
-image.src: /images/vue-vite-screenshot.png
+image.src: '/images/vue-vite-screenshot.png'
 author: Muhammad Rivandra
 date: 2023-04-30
 ---

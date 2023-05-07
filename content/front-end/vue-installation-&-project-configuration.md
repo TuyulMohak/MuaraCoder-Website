@@ -1,7 +1,7 @@
 ---
 title: 'Simple Vue 3 Guide : Installation & Project Configuration'
 description: In this guide, MuaraCoder will show you how to easily install vue 3 project with vite in simple way and also with examples. 
-image.src: /images/vue-vite-screenshot.png
+image.src: '/images/vue-vite-screenshot.png'
 author: Muhammad Rivandra
 date: 2023-04-30
 ---
