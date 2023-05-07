@@ -1,6 +1,5 @@
 <template>
     <div class="p-5 md:mx-32">
-        <adsbygoogle />
         <h1>{{ $t('home-title') }}</h1>
         <!-- <pre>{{ data }}</pre> -->
         <section class="grid grid-cols-1 sm:grid-cols-3 gap-7">
@@ -31,6 +30,7 @@ const metaObjectId = {
     twitterCard: 'MuaraCoder: Where Web Development Flows like a River',
 }
 
+
 let metaData = null
 let canons = null
 if(locale.value === "id"){
@@ -52,7 +52,7 @@ if(locale.value == 'id'){
 
 const i18nHead = useLocaleHead({
     addSeoAttributes: {
-    canonicalQueries: canons
+        canonicalQueries: canons
     }
 })
 useHead({

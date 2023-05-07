@@ -1,8 +1,3 @@
-// https://v3.nuxtjs.org/api/configuration/nuxt.config
-// import highlightjs from 'highlight.js'
-// const wrap = (code:string, lang:string) => `<pre><code class="hljs ${lang}">${code}</code></pre>`
-
-
 export default defineNuxtConfig({
   css:['~/app.css'],
   modules: [
@@ -42,7 +37,7 @@ export default defineNuxtConfig({
     }
   },
   sitemap :{
-    siteUrl: 'https://muaracoder.com'
+    siteUrl: 'https://muaracoder.com',
   },
   i18n: {
     /* module options */
