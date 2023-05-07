@@ -3,7 +3,7 @@
         <div class="flex justify-between items-center">
             <div class="text-xl md:text-3xl font-mono font-bold text-green-900 w-44">
                 <!-- <NuxtLink to="/">Muara<span class="font-extrabold">Coder</span></NuxtLink> -->
-                <NuxtLink to="/"><img src="/images/Logo_MuaraCoder.png" ></NuxtLink>
+                <NuxtLink to="/"><img src="/images/Logo_MuaraCoder.png" alt="logo-muaracoder"></NuxtLink>
             </div>
             
             <div class="text-right">
