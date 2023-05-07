@@ -2,9 +2,8 @@ export default cachedEventHandler(async () => {
   const [
     posts,
   ] = await Promise.all([
-    $fetch('/api/_content'),
+    $fetch('/api/_content/query?without=body'),
   ])
-  console.log(posts)
   return posts.map(p => {
     return { loc: p._path, lastmod: p.date }
   })
