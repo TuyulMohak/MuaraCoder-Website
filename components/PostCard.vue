@@ -1,6 +1,6 @@
 <template>
     <div class="border p-2 hover:bg-gray-100">
-        <NuxtLink v-if="showCategory" class="text-green-700 hover:underline py-2" :to="linkUrl">{{linkName}}</NuxtLink>}
+        <NuxtLink v-if="showCategory" class="text-green-700 hover:underline py-2" :to="linkUrl">{{linkName}}</NuxtLink>
         <!-- <h6>{{ $route.params.slug }}</h6> -->
         <img :src="data.image.src">
         <h6 class="font-bold text-2xl py-2 my-2 text-gray-800">
