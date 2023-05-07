@@ -45,9 +45,9 @@ useSeoMeta(metaData)
 const localePath = useLocalePath()
 let data = null
 if(locale.value == 'id'){
-    data = await queryContent(localePath('/')).sort({date: 1}).find()
+    data = await queryContent(localePath('/')).sort({date: -1}).find()
 }else{
-    data = await queryContent(localePath('/')).where({_path: {$not:{$contains: '/id/'}}}).sort({date: 1}).find()
+    data = await queryContent(localePath('/')).where({_path: {$not:{$contains: '/id/'}}}).sort({date: -1}).find()
 }
 
 const i18nHead = useLocaleHead({

@@ -1,7 +1,7 @@
 ---
 title: 'Quasar JS: Introduction, Pros & Cons'
 description: Muaracoder will review one of the coolest Vue.js-based frameworks and serve as a complete package of component library, CSS utility classes, and many more. 
-image: /images/thumbnail-quasar-review.png
+image.src: /images/thumbnail-quasar-review.png
 author: Muhammad Rivandra
 date: 2023-05-07
 ---

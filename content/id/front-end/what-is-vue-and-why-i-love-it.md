@@ -1,7 +1,7 @@
 ---
 title: 'Tutorial Vue 3 Simple: Pengertian, Kelebihan dan Kekurangan'
 description: Pada postingan ini, MuaraCoder kan menjelaskan tentang apa itu VueJs, serta pengalaman penggunaan, kelebihan, kekurangan, dan kenapa saya rekomendasiin untuk pake Vuejs. 
-image: /images/vue-vite-screenshot.png
+image.src: /images/vue-vite-screenshot.png
 author: Muhammad Rivandra
 date: 2023-04-30
 ---

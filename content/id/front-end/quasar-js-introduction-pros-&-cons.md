@@ -1,7 +1,7 @@
 ---
-title: 'Quasar JS: Introduction, Pros & Cons'
+title: 'Quasar JS: Pengenalan, Kelebihan & Kekurangan'
 description: Muaracoder akan me-review salah satu Vue.js-based frameworks yang sangat lengkap, meliputi component library, CSS utility classes, dan masih banyak lagi. 
-image: /images/thumbnail-quasar-review.png
+image.src: /images/thumbnail-quasar-review.png
 author: Muhammad Rivandra
 date: 2023-05-07
 ---
