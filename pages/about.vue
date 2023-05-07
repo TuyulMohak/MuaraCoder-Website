@@ -1,7 +1,7 @@
 <template>
     <main class="p-5 md:mx-64 text-center text-gray-700">
         <section>
-            <img class="w-32" src="/images/muhammad_rivandra_potrait.png"/>
+            <img class="w-32" src="/images/muhammad_rivandra_potrait.png" alt="muhammad-rivandra-potrait"/>
         </section>
         <section>
             <h1>{{$t("about-h1")}}</h1>
