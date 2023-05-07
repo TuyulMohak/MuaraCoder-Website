@@ -18,6 +18,10 @@ a{
     @apply text-green-700
 }
 
+main a {
+    @apply underline
+}
+
 article{
     @apply leading-8
 }

@@ -1,5 +1,5 @@
 ---
-title: 'Simple Vue 3 Guide: What is Vue and why I love Vue'
+title: 'Simple Vue 3 Guide: What is Vue and why I love It'
 description: In this guide, MuaraCoder will share about what is vue and why I love vue, along with the advantages and disadvantages.
 image: /images/vue-vite-screenshot.png
 author: Muhammad Rivandra
