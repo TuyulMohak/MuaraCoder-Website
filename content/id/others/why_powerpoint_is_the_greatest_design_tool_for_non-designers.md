@@ -13,10 +13,10 @@ date: 2023-05-08
 ::ImageWithAlt{src="/images/powerpoint-is-the-greatest-design-tool-thumbnail.png" alt="Powerpoint-post-thumbnail"}
 ::
 
-## What Is Powerpoint
+## Pengertian
 PowerPoint merupakan aplikasi yang digunakan untuk membuat slide presentasi. Saya yakin, hampir semua orang mengetahui tentang Powerpoint. PowerPoint dibuat oleh Microsoft. Jadi, Kemungkinan besar kalian sudah punya Microsoft Powerpoint di desktop kalian saat baru beli (Kalau menggunakan Windows).
 
-## Why I use Powerpoint
+## Kenapa Saya Pake PowerPoint untuk Design
 Oke, jadi saya merupakan web developer dengan sedikit skill design. Akhir-akhir ini saya membuat beberapa design untuk thumbnail postingan seperti yg di atas, atau design untuk saya post di linkedin saat menjelaskan tentang aplikasi yang saya buat. Sebelumnya saya banyak menggunakan Canva atau Figma, dan laptop saya terlalu slow untuk aplikasi seberat itu. Jadi setelah saya pikir-pikir, apa aplikasi yang ringan dan bisa dipakai design? Saya coba pake Paint, sangat tidak recommended. Setelah itu saya coba pakai Powerpoint, ternyata bisa dan gampang. Di postingan ini akan dijelaskan mengenai kelebihan dan kekurangan PowerPoint untuk design yang saya temui saat menggunakannya.
 
 ## Kelebihan
