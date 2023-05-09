@@ -1,6 +1,6 @@
 ---
 title: 'PowerPoint: Aplikasi Design Terbaik untuk Non-designer'
-description: Muaracoder will review one of the best design tools, Microsoft PowerPoint, along with its advantages and disadvantages.
+description: Muaracoder akan me-review salah satu alternatif aplikasi design design yang ringan, dan mudah digunakan, Microsoft PowerPoint, dengan kelebihan dan kekurangan.
 image.src: '/images/powerpoint-is-the-greatest-design-tool-thumbnail.png'
 author: Muhammad Rivandra
 date: 2023-05-08
@@ -10,7 +10,7 @@ date: 2023-05-08
 
 ::AuthorAndDate{author="Muhammad Rivandra" date="2023-05-08"}
 ::
-::ImageWithAlt{src="/images/powerpoint-is-the-greatest-design-tool-thumbnail.png" alt="Powerpoint-post-thumbnail"}
+::ImageW6ithAlt{src="/images/powerpoint-is-the-greatest-design-tool-thumbnail.png" alt="Powerpoint-post-thumbnail"}
 ::
 
 ## Pengertian
